@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+string age, name, address;
+cout << "enter your name";
+cin >> name;
+cout << "enter your age";
+cin >> age;
+cout << "enter your address";
+cin >> address;
+cout << "your name is" << name;
+cout<< "your age is" <<  age;
+cout << "your address is" << address;
+
+   return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	double x;
+	double y;
+	cout << "Enter the temperature in fahrenheit to be converted into celsius\n";
+	cin >> x;
+	y = (x - 32) * 0.556;
+	cout << "the temperature in celsius is : " << y << endl;
+  
+	return 0;
+}
+
+
+
