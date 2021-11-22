@@ -34,3 +34,39 @@ int main()
 
 
 
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+	double x;
+	double y;
+	cout << "Enter the temperature in celcius to be converted into Fahrenheit \n";
+	cin >> x;
+	y = (x * 1.8) + 32;
+	cout << "The temperature in Fahrenheit is: " << y << endl;
+
+	return 0;
+}
+
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+
+{
+	float area, circumference, radius;
+	float pie = 3.14;
+	cin >> radius;
+	area = pie * radius * radius;
+	circumference = 2 * radius;
+	cout << radius;
+
+	return 0;
+}
+
+
+
